@@ -343,6 +343,15 @@ html {
   .tophr {
     width: 70%;
   }
+  .content-pick {
+    border: green 1px solid;
+    padding: none;
+    margin: none;
+  }
+  .content-pick .destination {
+    border: pink 1px solid;
+    width: 100%;
+  }
 }
 html {
   font-size: 62.5%;

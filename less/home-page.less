@@ -95,10 +95,16 @@ html{
   margin: auto;
 }
 
-@media(max-width:1600px){
+@media(max-width:500px){
   html{
+    width:500px;
     .flexcolumn();
     align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin:none;
+    padding:none;
   }
   body{
     width: 500px;
@@ -156,5 +162,20 @@ html{
   .tophr{
     width: 70%;
   }
+  .content-pick{
+    border: green 1px solid;
+    .flex();
+    justify-content: center;
+    padding:none;
+    margin:none;
+  .destination{
+    border: pink 1px solid;
+    width:300%;
+  }
+  .content-destination{
+    width:50%;
+
+  }
+}
 }
 
