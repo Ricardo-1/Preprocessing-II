@@ -90,3 +90,71 @@ html{
   align-items: center;
 }
 
+.footer{
+  width: 100%;
+  margin: auto;
+}
+
+@media(max-width:1600px){
+  html{
+    .flexcolumn();
+    align-content: center;
+  }
+  body{
+    width: 500px;
+    border:red 1px solid;
+    display: flex;
+    .flexcolumn();
+    align-content: center;
+  }
+  section{
+    .flexcolumn();
+    align-content: center;
+    align-items: center;
+  }
+  #flipme{
+    flex-wrap: wrap;
+    .text-content{
+      order:1;
+    }
+    .img-content{
+      order:2;
+    }
+  }
+  .top{
+    width: 100%;
+    .flexcolumn();
+    justify-content:center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+  }
+  .navdiv{
+    width: 55%;
+    margin-bottom: .1rem;
+    .flexcolumn();
+    h1{
+      padding-top: 4rem;
+      font-size: 2rem;
+    }
+    nav{
+      font-size: 1rem;
+      width:60%;
+      .flexrow();
+      justify-content: space-between;
+    }
+
+  }
+  header{
+    .flexcolumn();
+    width:55%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .tophr{
+    width: 70%;
+  }
+}
+
